@@ -1,0 +1,44 @@
+@model QuanLyBookStore.Models.DonMua
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Xóa</h1>
+
+<h3>Bạn muốn xóa đơn mua này?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaDM)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaDM)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenKhach)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenKhach)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenSach)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sach.TenSach)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateBuy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateBuy)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="MaDM" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Quay lại</a>
+    </form>
+</div>

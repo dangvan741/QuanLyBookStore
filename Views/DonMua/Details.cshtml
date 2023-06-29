@@ -1,0 +1,41 @@
+@model QuanLyBookStore.Models.DonMua
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Chi tiết</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaDM)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaDM)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenKhach)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenKhach)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenSach)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sach.TenSach)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateBuy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateBuy)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaDM">Sửa</a> |
+    <a asp-action="Index">Quay lại</a>
+</div>

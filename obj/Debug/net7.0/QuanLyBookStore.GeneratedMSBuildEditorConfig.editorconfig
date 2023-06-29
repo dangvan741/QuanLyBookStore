@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyBookStore
+build_property.RootNamespace = QuanLyBookStore
+build_property.ProjectDir = d:\Work\BTL\QuanLyBookStore\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = d:\Work\BTL\QuanLyBookStore
+build_property._RazorSourceGeneratorDebug = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/DonMua/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/DonMua/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/DonMua/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/DonMua/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/DonMua/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uTXVhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/HopDong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/HopDong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/HopDong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/HopDong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/HopDong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/NhanVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/NhanVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/NhanVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/NhanVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/NhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Sach/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Sach/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Sach/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Sach/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Sach/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Sach/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FjaFxVcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Work/BTL/QuanLyBookStore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dy5tprigqu

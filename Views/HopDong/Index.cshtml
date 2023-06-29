@@ -1,0 +1,59 @@
+@model IEnumerable<QuanLyBookStore.Models.HopDong>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Hợp đồng nhân viên</h1>
+
+<p>
+    <a asp-action="Create">Thêm hợp đồng</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaHD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhanVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateEnd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Luong)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaHD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhanVien.TenNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateEnd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Luong)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaHD">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaHD">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaHD">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

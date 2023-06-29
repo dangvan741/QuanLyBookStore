@@ -1,0 +1,54 @@
+@model IEnumerable<QuanLyBookStore.Models.Sach>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Sách</h1>
+
+<p>
+    <a asp-action="Create">Thêm sách</a>
+    <a asp-action="Upload">Thêm sách từ file Excel</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenNXB)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gia)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenNXB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gia)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaSach">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaSach">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaSach">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

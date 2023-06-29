@@ -1,0 +1,59 @@
+@model IEnumerable<QuanLyBookStore.Models.NhanVien>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Nhân viên</h1>
+
+<p>
+    <a asp-action="Create">Thêm nhân viên</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgaySinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quequan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SDT)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quequan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaNV">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaNV">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaNV">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
